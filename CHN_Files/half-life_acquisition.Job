@@ -1,0 +1,17 @@
+Set_Detector 1
+Set_Preset_Clear
+Set_Preset_Real 300
+Loop 110
+Clear
+Start
+Wait
+Save "C:\User\half-life2022\Acq300sec_???.chn
+End_Loop
+Set_Preset_Clear
+Set_Preset_Real 14400
+Loop 36
+Clear
+Start
+Wait
+Save "C:\User\half-life2022\Acq14400sec_???.chn
+End_Loop
