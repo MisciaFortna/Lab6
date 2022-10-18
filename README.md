@@ -7,6 +7,7 @@ Contains the homebrew analysis library
 - time(): returns total time for a given file, its total runtime, and the base time in H, M, and S
 - date(): returns a list for the CHN start time in [HH, MM, SS]
 - eFit(): takes list of known channels, list of known energies and returns list of x-axis values in terms of energy
+- noiseReduc(): takes data file and noise file and produces a noiseless list of data values
 ## Programs
 ###### CHN_2_TXT.py
 Borrowed program for the conversion of chn to txt
